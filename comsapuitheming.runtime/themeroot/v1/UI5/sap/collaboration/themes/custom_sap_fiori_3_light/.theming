@@ -1,0 +1,15 @@
+{
+	"mVersionDependency": {
+		"UI5.sap/collaboration.sap_fiori_3": "1.89.0",
+		"UI5.sap/collaboration": "1.89.0",
+		"UI5": "1.89.0"
+	},
+	"sEntity": "Theme",
+	"sId": "custom_sap_fiori_3_light",
+	"sLabel": "custom_sap_fiori_3_light",
+	"oExtends": "UI5.sap/collaboration.sap_fiori_3",
+	"sTextDirections": "LTR",
+	"sType": "STANDARD",
+	"sThemability": "PUBLIC",
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}

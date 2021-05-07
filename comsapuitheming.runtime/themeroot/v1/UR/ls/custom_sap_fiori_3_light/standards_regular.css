@@ -1,0 +1,8 @@
+/**
+* Copyright (c) 2012-2020 SAP SE or an SAP affiliate company. All rights reserved.
+*
+* Theming Engine 1.61.0
+* data:{"Path": "UR.ls.custom_sap_fiori_3_light.standards_regular", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_fiori_3","sap_base_fiori","baseTheme"], "Tags": ["Fiori_3","Touch"], "Version": { "Build":"10.30.7.332843.20210507171335", "Source": "10.30.7.332843.0", "Required":"10.30.7.307232", "Engine": "1.61.0"}}
+*/
+
+.sapThemeMetaData-UR-ls{background-image: url('data:text/plain;utf-8,{"Path": "UR.ls.custom_sap_fiori_3_light.standards_regular", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "Extends": ["sap_fiori_3","sap_base_fiori","baseTheme"], "Tags": ["Fiori_3","Touch"], "Version": { "Build":"10.30.7.332843.20210507171335", "Source": "10.30.7.332843.0", "Required":"10.30.7.307232", "Engine": "1.61.0"}}');}

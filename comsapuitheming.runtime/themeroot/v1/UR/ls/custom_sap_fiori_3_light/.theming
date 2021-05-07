@@ -1,0 +1,50 @@
+{
+	"mVersionDependency": {
+		"UR.ls.sap_fiori_3": "10.30.7.332843.0",
+		"UR.ls": "10.30.7.332843.0",
+		"UR": "10.30.7.332843.0"
+	},
+	"sEntity": "Theme",
+	"sId": "custom_sap_fiori_3_light",
+	"sLabel": "custom_sap_fiori_3_light",
+	"oExtends": "UR.ls.sap_fiori_3",
+	"aBuildFiles": [
+		"standards",
+		"standards_cozy",
+		"standards_condensed",
+		"standards_fioripaddings",
+		"standards_regular"
+	],
+	"aFiles": [
+		"base",
+		"standards",
+		"standards_cozy",
+		"standards_condensed",
+		"standards_fioripaddings",
+		"standards_regular",
+		"custom"
+	],
+	"sTextDirections": "LTR",
+	"sType": "STANDARD",
+	"sThemability": "PUBLIC",
+	"mCssScopes": {
+		"standards": {
+			"sEmbeddingMethod": "APPEND",
+			"aScopes": [
+				{
+					"sLabel": "Condensed",
+					"sSelector": "lsCondensed",
+					"sEmbeddedFile": "standards_condensed",
+					"sEmbeddedCompareFile": "standards"
+				},
+				{
+					"sLabel": "FioriPaddings",
+					"sSelector": "lsScope--fioripaddings",
+					"sEmbeddedFile": "standards_fioripaddings",
+					"sEmbeddedCompareFile": "standards"
+				}
+			]
+		}
+	},
+	"sReleaseStage": "GENERAL_AVAILABILITY"
+}
